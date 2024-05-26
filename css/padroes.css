@@ -1,0 +1,10 @@
+:root{
+    --roxo-padrao: #8864B0;
+    --azul-padrao: #94CCE2;
+}
+
+header, body ,footer{margin: 0 0 auto;}
+.item-flex{display: flex;flex-direction: row;justify-content: center;align-items: center;}
+.conteudo-1998{margin: 0 auto;width: 1998px;max-width: 96%;}
+.conteudo-1300{margin: 0 auto;width: 1300px;max-width: 96%;}
+.conteudo-1200{margin: 0 auto;width: 1200px;max-width: 96%;}

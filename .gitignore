@@ -1,0 +1,49 @@
+# Ignorar diretórios do XAMPP
+/xamppfiles
+/phpmyadmin
+/mysql/data
+/apache/logs
+/tmp
+
+# Ignorar arquivos de log
+*.log
+
+# Ignorar arquivos temporários
+*.tmp
+*.temp
+
+# Ignorar arquivos de cache
+cache/
+tmp/
+sessions/
+
+# Ignorar configurações do ambiente local
+.env
+.env.local
+.env.*.local
+
+# Ignorar arquivos de configuração do IDE
+.idea/
+.vscode/
+*.sublime-workspace
+*.sublime-project
+
+# Ignorar diretórios e arquivos do Composer
+/vendor/
+composer.lock
+
+# Ignorar diretórios e arquivos do Node.js
+/node_modules/
+npm-debug.log
+
+# Ignorar arquivos de sistema
+.DS_Store
+Thumbs.db
+
+# Ignorar arquivos de backup
+*.bak
+*.old
+
+# Ignorar arquivos de build
+/build/
+dist/

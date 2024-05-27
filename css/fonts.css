@@ -5,3 +5,10 @@
     font-weight: normal;
     font-style: normal;
 }
+@font-face {
+    font-family: 'comic_sansregular';
+    src: url('../fonts/comicsans-webfont.woff2') format('woff2'),
+         url('../fonts/comicsans-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}

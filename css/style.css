@@ -9,4 +9,11 @@ body{background: linear-gradient(340deg, white, var(--azul-padrao), var(--roxo-p
 .container-imagens-celular .conteudo-1300 .conteudo-imagens-celular .abertura-app{z-index: 2;}
 .container-imagens-celular .conteudo-1300 .conteudo-imagens-celular .escala-gatinho img{margin: 0 -127px -93px 0;}
 .container-imagens-celular .conteudo-1300 .conteudo-imagens-celular .atividades img{margin: 0 0 -93px -127px; z-index: 0; position: relative;}
-.container-terapia .conteudo-1200 .conteudo-terapia .nota-texto{width: 439px; height: 439px; background-image: url("../img/nota-adesiva-azul.svg"); background-size: cover; background-position: center;}
+.container-terapia{padding: 250px 0 0 0;}
+.container-terapia .conteudo-1162 .conteudo-terapia{flex-direction: column; gap: 250px;}
+.container-terapia .conteudo-1162 .conteudo-terapia .nota-adesiva{justify-content: space-between; width: 100%;}
+.container-terapia .conteudo-1162 .conteudo-terapia .nota-adesiva.direito{flex-direction: row-reverse;}
+.container-terapia .conteudo-1162 .conteudo-terapia .nota-adesiva .imagem-nota{width: 439px;height: 439px; background-image: url("../img/nota-adesiva-azul.png");background-repeat: no-repeat;background-size: cover}
+.container-terapia .conteudo-1162 .conteudo-terapia .nota-adesiva.direito .imagem-nota{background-image: url("../img/nota-adesiva-roxa.png");background-repeat: no-repeat;background-size: cover}
+.container-terapia .conteudo-1162 .conteudo-terapia .nota-adesiva .imagem-nota p{max-width: 339px; font-family: comic_sansregular; font-size: 26.2px; color: var(--roxo-padrao); line-height: 47px;}
+.container-terapia .conteudo-1162 .conteudo-terapia .nota-adesiva.direito .imagem-nota p{color: var(--azul-padrao);}

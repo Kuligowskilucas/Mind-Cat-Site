@@ -49,11 +49,48 @@
         </div>
     </div>
     <div class="container-terapia">
-        <div class="conteudo-1200">
+        <div class="conteudo-1162">
             <div class="conteudo-terapia item-flex">
-                <div class="nota-texto item-flex">
-
-                </div>
+                <?php
+                $Notas = [
+                    [
+                        "texto" => "Nos baseamos na terapia dialétia comportamental para desenvolver atividades que auxiliam em seu tratamento",
+                        "imagem-celular" => "abertura_app.png",
+                        "lado-direito" => false
+                    ],
+                    [
+                        "texto" => "Nosso gráfico de humor é preciso, podendo ser personalizada para sua terapia em particular. Tornando tudo mais confortável para você",
+                        "imagem-celular" => "atividades.png",
+                        "lado-direito" => true
+                    ],
+                ];
+                foreach ($Notas as $nota) { ?>
+                    <?php
+                    if (!$nota["lado-direito"]) { ?>
+                        <div class="nota-adesiva item-flex">
+                            <div class="imagem-nota item-flex">
+                                <p><?= $nota["texto"] ?></p>
+                            </div>
+                            <div class="imagem-celular">
+                                <img src="img/<?= $nota["imagem-celular"] ?>" alt="imagem do celular">
+                            </div>
+                        </div>
+                    <?php
+                    } else { ?>
+                        <div class="nota-adesiva direito item-flex">
+                            <div class="imagem-nota item-flex">
+                                <p><?= $nota["texto"] ?></p>
+                            </div>
+                            <div class="imagem-celular">
+                                <img src="img/<?= $nota["imagem-celular"] ?>" alt="imagem do celular">
+                            </div>
+                        </div>
+                    <?php
+                    }
+                    ?>
+                <?php
+                }
+                ?>
             </div>
         </div>
     </div>
